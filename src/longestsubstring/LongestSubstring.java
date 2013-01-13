@@ -44,7 +44,7 @@ public class LongestSubstring {
      *
      * @param beginIndex beginning index, inclusive
      * @param endIndex ending index, exclusive
-     * @return
+     * @return {@code true} if substring contains no more than {@code maxChars} distinct characters
      */
     protected boolean satisfies(int beginIndex, int endIndex) {
         char[] charSet = new char[maxChars];
