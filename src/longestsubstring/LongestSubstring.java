@@ -17,8 +17,11 @@ public class LongestSubstring {
     }
 
     /**
-     * Returns longest substring of the given string that contains no more than the specified number
-     * of distinct characters.
+     * Returns longest substring of the given string that contains no more than the specified
+     * number of distinct characters.
+     * @param s source string
+     * @param maxChars maximum number of distinct characters
+     * @return longest substring
      */
     public static String find(String s, int maxChars) {
         return new LongestSubstring(s, maxChars).find();
